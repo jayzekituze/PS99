@@ -1,4 +1,5 @@
---[[
+local success, errorMessage = pcall(function()
+    --[[
 Credits List
 ethereum: creating the base sniper
 chocolog: providing type.huge
@@ -286,4 +287,14 @@ while task.wait(1) do
             jumpToServer()
         end
     end
+end
+end)
+
+if not success then
+    local line = debug.traceback():match(":%d+:%s*in function '(%a+)'")
+    local errorMsg = "Error: " .. errorMessage
+    if line then
+        errorMsg = errorMsg .. " (line " .. line .. ")"
+    end
+    warn(errorMsg)
 end
