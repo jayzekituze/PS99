@@ -18,7 +18,7 @@ local http = game:GetService("HttpService")
 local ts = game:GetService("TeleportService")
 local rs = game:GetService("ReplicatedStorage")
 local Library = require(rs:WaitForChild('Library'))
-local snipeNormal
+local snipeNormalPets
 
 if not snipeNormalPets then
     snipeNormalPets = false
