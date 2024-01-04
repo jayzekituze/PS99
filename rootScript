@@ -6,7 +6,7 @@ Edmond: offered tips for optimization
 ]]--
 
 local osclock = os.clock()
-repeat task.wait() until game:IsLoaded()
+repeat wait() until game:IsLoaded()
 
 setfpscap(10)
 game:GetService("RunService"):Set3dRenderingEnabled(false)
@@ -18,7 +18,7 @@ local http = game:GetService("HttpService")
 local ts = game:GetService("TeleportService")
 local rs = game:GetService("ReplicatedStorage")
 local Library = require(rs:WaitForChild('Library'))
-local snipeNormalPets
+local snipeNormal
 
 if not snipeNormalPets then
     snipeNormalPets = false
