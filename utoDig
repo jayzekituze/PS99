@@ -3,7 +3,7 @@ repeat task.wait(1) until game:IsLoaded()
 
 print("utodeg")
 
---// loadstring(game:HttpGet('https://raw.githubusercontent.com/jayzekituze/Utomel/main/utodeg'))()
+--// loadstring(game:HttpGet('https://raw.githubusercontent.com/jayzekituze/PS99/main/utoDig'))()
 local Players = game:GetService('Players')
 local Player = Players.LocalPlayer
 local getPlayers = Players:GetPlayers()
@@ -84,6 +84,6 @@ task.spawn(function()
         discordID = "335239993092210689",
     }
 
-    spawn(loadstring(game:HttpGet("https://gist.githubusercontent.com/AnigamiYT/6b47b64a42c0d859e3e80bdd1a1522f8/raw/gistfile1.txt"))) --ADVANCED DIG
-    --spawn(loadstring(game:HttpGet("https://gist.githubusercontent.com/AnigamiYT/f0624b7e49108f409334ecb9d1324259/raw/gistfile1.txt"))) --BASIC DIG
+    -- spawn(loadstring(game:HttpGet("https://gist.githubusercontent.com/AnigamiYT/6b47b64a42c0d859e3e80bdd1a1522f8/raw/gistfile1.txt"))) --ADVANCED DIG
+    spawn(loadstring(game:HttpGet("https://gist.githubusercontent.com/AnigamiYT/f0624b7e49108f409334ecb9d1324259/raw/gistfile1.txt"))) --BASIC DIG
 end)
