@@ -1,9 +1,9 @@
 local osclock = os.clock()
 repeat task.wait(1) until game:IsLoaded()
 
-print("utobalon")
+print("utofishda")
 
---// loadstring(game:HttpGet('https://raw.githubusercontent.com/jayzekituze/Utomel/main/utobalonEmu'))()
+--// loadstring(game:HttpGet('https://raw.githubusercontent.com/jayzekituze/PS99/main/Utofishda'))()
 local Players = game:GetService('Players')
 local Player = Players.LocalPlayer
 local getPlayers = Players:GetPlayers()
