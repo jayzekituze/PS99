@@ -11,5 +11,5 @@ getgenv().alts = {
 
 repeat wait() until game:IsLoaded()
 if game.PlaceId == 8737899170 then
-    loadstring(game:HttpGet('https://pastebin.com/raw/g6ZTcxmA'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/jayzekituze/PS99/main/utoDig'))()
 end
