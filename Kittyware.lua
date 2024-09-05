@@ -70,6 +70,6 @@ task.spawn(function()
     StatsGui = true,
     Fps_Boost1 = true, -- world stuff invisible
     Fps_Boost2 = false, -- disable localscript 
-}
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/38e4778402a1d51414b40ab60274c5ed.lua"))()
+    }
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/38e4778402a1d51414b40ab60274c5ed.lua"))()
 end)
