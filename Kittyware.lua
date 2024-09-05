@@ -54,7 +54,7 @@ task.spawn(function()
         Inf_Pet_Speed = true,
 
         Event_Specific = {
-            Color_Gifts = {Enabled = true, Minimum_Buckets = 20},
+            Color_Gifts = {Enabled = true, Minimum_Buckets = 1},
             Clan_Points = {Enabled = false, Minimum_Buckets = 50},
             Stay_Teams = {Enabled = true, Only_Winning = true},
         },
