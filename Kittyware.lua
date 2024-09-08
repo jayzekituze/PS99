@@ -47,29 +47,29 @@ task.spawn(function()
     -- script_key="LjuHTohHvbxairVCxFgupfICGfBsVWki";
     -- loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a2369ce34d44187610ac9bf5039c37ab.lua"))()
     getgenv().KiTTYWARE_ColorWar = {
-    Farm_Zones = true,
-    Farming_Misc = {
-        Pets_Per_Breakable = 1,
-        Auto_Pickups = true,
-        Inf_Pet_Speed = true,
-
-        Event_Specific = {
-            Color_Gifts = {Enabled = true, Minimum_Buckets = 1},
-            Clan_Points = {Enabled = false, Minimum_Buckets = 50},
-            Stay_Teams = {Enabled = true, Only_Winning = true},
+        Farm_Zones = true,
+        Farming_Misc = {
+            Pets_Per_Breakable = 1,
+            Auto_Pickups = true,
+            Inf_Pet_Speed = true,
+    
+            Event_Specific = {
+                Color_Gifts = {Enabled = true, Minimum_Buckets = 1},
+                Clan_Points = {Enabled = false, Minimum_Buckets = 50},
+                Stay_Teams = {Enabled = true, Only_Winning = true},
+            },
         },
-    },
-    Hatch_Eggs = true,
-    Hatching_Misc = {
-        discord_UserID = "402681518197047306",
-        hugeNotif_Webhook = "https://discord.com/api/webhooks/1149765527389077534/OAAbl2pZosZJrMQprv_IynhwIj9EGIzf5O_qRyCMplPVrpdxe50dj7VGGuC4Hh_GeNDr",
-        hugeNotif_Enabled = true,
-        autoMail_User = "HolyKram",
-        autoMail_Enabled = false,
-    },
-    StatsGui = true,
-    Fps_Boost1 = true, -- world stuff invisible
-    Fps_Boost2 = false, -- disable localscript 
+        Hatch_Eggs = true,
+        Hatching_Misc = {
+            discord_UserID = "402681518197047306",
+            hugeNotif_Webhook = "https://discordapp.com/api/webhooks/1149765527389077534/OAAbl2pZosZJrMQprv_IynhwIj9EGIzf5O_qRyCMplPVrpdxe50dj7VGGuC4Hh_GeNDr",
+            hugeNotif_Enabled = true,
+            autoMail_User = "HolyKram",
+            autoMail_Enabled = false,
+        },
+        StatsGui = true,
+        Fps_Boost1 = true, -- world stuff invisible
+        Fps_Boost2 = false, -- disable localscript 
     }
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/38e4778402a1d51414b40ab60274c5ed.lua"))()
 end)
