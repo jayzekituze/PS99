@@ -50,13 +50,11 @@ task.spawn(function()
         Farm_Zones = true,
         Farming_Misc = {
             Pets_Per_Breakable = 1,
-            Auto_Pickups = true,
-            Inf_Pet_Speed = true,
-    
             Event_Specific = {
-                Color_Gifts = {Enabled = true, Minimum_Buckets = 50},
+                Color_Gifts = {Enabled = true, Minimum_Buckets = 75},
                 Clan_Points = {Enabled = false, Minimum_Buckets = 50},
                 Stay_Teams = {Enabled = true, Only_Winning = true},
+                Graffiti_Gifts = {Enabled = true},
             },
         },
         Hatch_Eggs = true,
@@ -67,9 +65,11 @@ task.spawn(function()
             autoMail_User = "HolyKram",
             autoMail_Enabled = false,
         },
+        Farm_Minigame = true,
+    
         StatsGui = true,
-        Fps_Boost1 = true, -- world stuff invisible
-        Fps_Boost2 = false, -- disable localscript 
+        Fps_Boost1 = true,
+        Fps_Boost2 = false,
     }
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/38e4778402a1d51414b40ab60274c5ed.lua"))()
 end)
