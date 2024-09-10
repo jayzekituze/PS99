@@ -65,7 +65,7 @@ task.spawn(function()
             autoMail_User = "HolyKram",
             autoMail_Enabled = false,
         },
-        Farm_Minigame = true,
+        Farm_Minigame = false,
     
         StatsGui = true,
         Fps_Boost1 = true,
