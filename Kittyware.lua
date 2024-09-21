@@ -42,7 +42,7 @@ task.spawn(function()
 end)
 
 task.spawn(function()
-    wait(60)
+    wait(15)
     print("hatsing")
     -- script_key="LjuHTohHvbxairVCxFgupfICGfBsVWki";
     -- loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a2369ce34d44187610ac9bf5039c37ab.lua"))()
