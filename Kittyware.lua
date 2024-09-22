@@ -2,8 +2,8 @@ local osclock = os.clock()
 repeat task.wait(1) until game:IsLoaded()
 print("utohatt")
 
-wait(16)
---// loadstring(game:HttpGet('https://raw.githubusercontent.com/jayzekituze/Utomel/main/AllforOne'))()
+wait(13)
+--// loadstring(game:HttpGet('https://raw.githubusercontent.com/jayzekituze/PS99/main/Kittyware.lua'))()
 
 local function serverHop(id)
     local HttpService = game:GetService("HttpService")
@@ -37,27 +37,30 @@ task.spawn(function()
         print("Error message:", errorMessage)
         print("Found An Error, Reconnecting...")
         wait(0.1)
-        serverHop(8737899170) -- Attempt to teleport to another server
+        serverHop(17503543197) -- Attempt to teleport to another server
     end);
 end)
 
 task.spawn(function()
-    wait(10)
+    wait(15)
     print("hatsing")
-    -- getgenv().AuthKey = "HUGE_HYARsu18jErU"
-    -- getgenv().LoadSettings = {
-    --     Example_Setting = 2
-    -- }
-    -- loadstring(game:HttpGet("https://HugeGames.io/ps99"))()
-    getgenv().AuthKey = "HUGE_HYARsu18jErU"
-    getgenv().LoadSettings = {
-        disable_globalhatch = true,
-        loadFromEnv = false,
-        ignoreSave = false,
-        allowMultiExecution = true,
-        ToggleBind = Enum.KeyCode.RightBracket,
-        loadConfig = "Kr4m" -- Will not load unless the Config Exists
+    -- script_key="LjuHTohHvbxairVCxFgupfICGfBsVWki";
+    -- loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a2369ce34d44187610ac9bf5039c37ab.lua"))()
+    getgenv().KiTTYWARE_ElementalWorld = {
+        Catch_Huges = true,
+        Complete_Trainer_Quests = false,
+    
+        Auto_Cube_Merchant = false,
+    
+        Hatch_Last_Egg = true,
+        Farm_Last_Zone = true,
+        Pets_Per_Breakable = 5,
+    
+        discord_Webhook = "https://discord.com/api/webhooks/1149765527389077534/OAAbl2pZosZJrMQprv_IynhwIj9EGIzf5O_qRyCMplPVrpdxe50dj7VGGuC4Hh_GeNDr",
+        discord_UserID = "402681518197047306",
+        mail_Enabled = false, -- WARN: 1% chance to donate to KW devs <3
+        mail_Username = "holykram",
+        Fps_Boost = true,
     }
-
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3acbf8ea627f090532fc8af027438e17.lua"))()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/bf88f8790b3e6c196d51b59dc600c9ee.lua"))()
 end)
