@@ -48,9 +48,9 @@ task.spawn(function()
     -- loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a2369ce34d44187610ac9bf5039c37ab.lua"))()
     getgenv().KiTTYWARE_ElementalWorld = {
         Catch_Huges = true,
-        Complete_Trainer_Quests = true,
+        Complete_Trainer_Quests = false,
     
-        Auto_Cube_Merchant = true,
+        Auto_Cube_Merchant = false,
     
         Hatch_Last_Egg = true,
         Farm_Last_Zone = true,
@@ -60,7 +60,7 @@ task.spawn(function()
         discord_UserID = "402681518197047306",
         mail_Enabled = false, -- WARN: 1% chance to donate to KW devs <3
         mail_Username = "holykram",
-        Fps_Boost = true,
+        Fps_Boost = false,
     }
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/bf88f8790b3e6c196d51b59dc600c9ee.lua"))()
 end)
