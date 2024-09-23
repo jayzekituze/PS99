@@ -56,7 +56,7 @@ task.spawn(function()
         Auto_Mail_Huges = false,
         Auto_Mail_Username = "holykram",
     
-        Only_Catch_Huges = false, -- If false will look for Huges, then Quest-Pets, then Easiest/Highest % Chance
+        Only_Catch_Huges = true, -- If false will look for Huges, then Quest-Pets, then Easiest/Highest % Chance
         Auto_Catch_Pets = true,
         Auto_Cube_Merchant = true,
     
