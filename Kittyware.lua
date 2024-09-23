@@ -65,6 +65,6 @@ task.spawn(function()
         Fps_Boost = true,
     }
     
-    script_key = "LjuHTohHvbxairVCxFgupfICGfBsVWki";
+    script_key = "PzcFLuJeAvYmaetHLXDZASrmPjukMAEB";
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b2d2d7d3e5cbec16ec501a759f3830ce.lua"))()
 end)
