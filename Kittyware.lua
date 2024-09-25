@@ -2,7 +2,7 @@ local osclock = os.clock()
 repeat task.wait(1) until game:IsLoaded()
 print("utohatt")
 
-wait(13)
+wait(16)
 --// loadstring(game:HttpGet('https://raw.githubusercontent.com/jayzekituze/PS99/main/Kittyware.lua'))()
 
 local function serverHop(id)
@@ -37,34 +37,38 @@ task.spawn(function()
         print("Error message:", errorMessage)
         print("Found An Error, Reconnecting...")
         wait(0.1)
-        serverHop(17503543197) -- Attempt to teleport to another server
+        serverHop(8737899170) -- Attempt to teleport to another server
     end);
 end)
 
 task.spawn(function()
-    wait(15)
-    print("hatsing")
-    -- script_key="LjuHTohHvbxairVCxFgupfICGfBsVWki";
-    -- loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a2369ce34d44187610ac9bf5039c37ab.lua"))()
-    getgenv().KiTTYWARE_Elemental = {
-        Farm_Normal_Breakables = true,
-        Farm_Special_Breakables = false, -- Farm Special Breakables like the Big Chests
-        Pets_Per_Breakable = 2,
-    
-        Egg_Number = 241,
-        Auto_Hatch = true,
-        Auto_Mail_Huges = false,
-        Auto_Mail_Username = "holykram",
-    
-        Only_Catch_Huges = true, -- If false will look for Huges, then Quest-Pets, then Easiest/Highest % Chance
-        Auto_Catch_Pets = true,
-        Auto_Cube_Merchant = true,
-    
-        Discord_UserID = "402681518197047306",
-        Discord_WebhookUrl = "https://discord.com/api/webhooks/1149765527389077534/OAAbl2pZosZJrMQprv_IynhwIj9EGIzf5O_qRyCMplPVrpdxe50dj7VGGuC4Hh_GeNDr",
-        Fps_Boost = true,
+    wait(10)
+    print("uto hatts")
+    getgenv().Config = {
+        ["Farming"] = {
+            ["AutoSprinklers"] = true,
+            ["AutoEvents"] = false,
+            ["AutoFruits"] = true,
+            ["AutoOpen"] = {"Gift Bag", "Large Gift Bag", "Mini Chest"},
+            ["AutoPotions"] = {"Diamonds", "Damage", "Walkspeed", "Treasure Hunter"},
+            ["AutoFlags"] = {"Hasty Flag"}
+        },
+        ["Webhook"] = {
+            ["HugeURL"] = "https://discordapp.com/api/webhooks/1149765527389077534/OAAbl2pZosZJrMQprv_IynhwIj9EGIzf5O_qRyCMplPVrpdxe50dj7VGGuC4Hh_GeNDr",
+            ["StatsURL"] = "https://discordapp.com/api/webhooks/1149765527389077534/OAAbl2pZosZJrMQprv_IynhwIj9EGIzf5O_qRyCMplPVrpdxe50dj7VGGuC4Hh_GeNDr",
+            ["UserID"] = "581283569704370176",
+            ["SendEvery"] = 60
+        },
+        ["Misc"] = {
+            ["AutoHatch"] = true,
+            ["AutoDaycare"] = true,
+            ["UltraFPS"] = true,
+        },
+        ["Elemental"] = {
+            ["AutoBuyCubes"] = {"Pet Cube", "Ultra Pet Cube"},
+            ["AutoTrainerQuests"] = true,
+            ["AutoFarmChest"] = false,
+        }
     }
-    
-    script_key = "PzcFLuJeAvYmaetHLXDZASrmPjukMAEB";
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b2d2d7d3e5cbec16ec501a759f3830ce.lua"))()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2bdebaf848a6be382ed338dad329aaf2.lua"))()
 end)
