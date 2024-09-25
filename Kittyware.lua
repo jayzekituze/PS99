@@ -46,12 +46,12 @@ task.spawn(function()
     print("uto hatts")
     getgenv().Config = {
         ["Farming"] = {
-            ["AutoSprinklers"] = true,
+            ["AutoSprinklers"] = false,
             ["AutoEvents"] = false,
-            ["AutoFruits"] = true,
-            ["AutoOpen"] = {"Gift Bag", "Large Gift Bag", "Mini Chest"},
-            ["AutoPotions"] = {"Diamonds", "Damage", "Walkspeed", "Treasure Hunter"},
-            ["AutoFlags"] = {"Hasty Flag"}
+            ["AutoFruits"] = false,
+            ["AutoOpen"] = {""},
+            ["AutoPotions"] = {""},
+            ["AutoFlags"] = {""}
         },
         ["Webhook"] = {
             ["HugeURL"] = "https://discordapp.com/api/webhooks/1149765527389077534/OAAbl2pZosZJrMQprv_IynhwIj9EGIzf5O_qRyCMplPVrpdxe50dj7VGGuC4Hh_GeNDr",
@@ -66,7 +66,7 @@ task.spawn(function()
         },
         ["Elemental"] = {
             ["AutoBuyCubes"] = {"Pet Cube", "Ultra Pet Cube"},
-            ["AutoTrainerQuests"] = true,
+            ["AutoTrainerQuests"] = false,
             ["AutoFarmChest"] = false,
         }
     }
