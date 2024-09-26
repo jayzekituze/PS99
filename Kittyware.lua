@@ -2,7 +2,7 @@ local osclock = os.clock()
 repeat task.wait(1) until game:IsLoaded()
 print("utohatt")
 
-wait(16)
+wait(10)
 --// loadstring(game:HttpGet('https://raw.githubusercontent.com/jayzekituze/PS99/main/Kittyware.lua'))()
 
 local function serverHop(id)
@@ -43,32 +43,7 @@ end)
 
 task.spawn(function()
     wait(10)
-    print("uto hatts")
-    getgenv().Config = {
-        ["Farming"] = {
-            ["AutoSprinklers"] = false,
-            ["AutoEvents"] = false,
-            ["AutoFruits"] = false,
-            ["AutoOpen"] = {""},
-            ["AutoPotions"] = {""},
-            ["AutoFlags"] = {""}
-        },
-        ["Webhook"] = {
-            ["HugeURL"] = "https://discordapp.com/api/webhooks/1149765527389077534/OAAbl2pZosZJrMQprv_IynhwIj9EGIzf5O_qRyCMplPVrpdxe50dj7VGGuC4Hh_GeNDr",
-            ["StatsURL"] = "https://discordapp.com/api/webhooks/1149765527389077534/OAAbl2pZosZJrMQprv_IynhwIj9EGIzf5O_qRyCMplPVrpdxe50dj7VGGuC4Hh_GeNDr",
-            ["UserID"] = "581283569704370176",
-            ["SendEvery"] = 60
-        },
-        ["Misc"] = {
-            ["AutoHatch"] = true,
-            ["AutoDaycare"] = true,
-            ["UltraFPS"] = true,
-        },
-        ["Elemental"] = {
-            ["AutoBuyCubes"] = {"Pet Cube", "Ultra Pet Cube"},
-            ["AutoTrainerQuests"] = false,
-            ["AutoFarmChest"] = false,
-        }
-    }
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2bdebaf848a6be382ed338dad329aaf2.lua"))()
+    print("hatsing")
+    script_key="PzcFLuJeAvYmaetHLXDZASrmPjukMAEB";
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a2369ce34d44187610ac9bf5039c37ab.lua"))()
 end)
