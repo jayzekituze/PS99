@@ -44,9 +44,6 @@ end)
 task.spawn(function()
     wait(10)
     print("hatsing")
-    getgenv().AuthKey = "HUGE_HYARsu18jErU"
-    getgenv().LoadSettings = {
-        Example_Setting = 2
-    }
-    loadstring(game:HttpGet("https://HugeGames.io/ps99"))()
+    script_key="PzcFLuJeAvYmaetHLXDZASrmPjukMAEB";
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a2369ce34d44187610ac9bf5039c37ab.lua"))()
 end)
