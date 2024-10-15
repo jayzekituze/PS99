@@ -3,7 +3,7 @@ repeat task.wait(1) until game:IsLoaded()
 print("utohatt")
 
 wait(10)
---// loadstring(game:HttpGet('https://raw.githubusercontent.com/jayzekituze/PS99/main/petsGo'))()
+--// loadstring(game:HttpGet('https://raw.githubusercontent.com/jayzekituze/PS99/refs/heads/main/petsGo'))()
 
 task.spawn(function()
     wait(10)
