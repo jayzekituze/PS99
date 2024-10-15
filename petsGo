@@ -1,1 +1,13 @@
+local osclock = os.clock()
+repeat task.wait(1) until game:IsLoaded()
+print("utohatt")
 
+wait(10)
+--// loadstring(game:HttpGet('https://raw.githubusercontent.com/jayzekituze/PS99/main/petsGo'))()
+
+task.spawn(function()
+    wait(10)
+    print("hatsing")
+    script_key="PzcFLuJeAvYmaetHLXDZASrmPjukMAEB";
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b22aae7d03041699ada62f6a4fb519fd.lua"))()
+end)
