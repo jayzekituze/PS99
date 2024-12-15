@@ -53,5 +53,8 @@ task.spawn(function()
     local character = player.Character or player.CharacterAdded:Wait()
 
     -- Teleport to the specified position
-    character.HumanoidRootPart.Position = Vector3.new(2113.27, 16.40, -20880.16)
+    character.HumanoidRootPart.Position = Vector3.new(2128.44, 16.67, -20896.06)
 end)
+
+
+
